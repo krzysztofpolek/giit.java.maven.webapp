@@ -15,7 +15,7 @@
         <slf4j.version>1.7.30</slf4j.version>
         <junit.version>4.12</junit.version>
         <http.verison>4.0.1</http.verison>
-        <jetty.version>9.4.25.v20191220</jetty.version>
+        <jetty.version>9.4.14.v20181114</jetty.version>
         <h2.version>1.4.200</h2.version>
     </properties>
 
@@ -54,6 +54,12 @@
             <artifactId>jetty-annotations</artifactId>
             <version>${jetty.version}</version>
         </dependency>
+        <!-- json -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.10.1</version>
+        </dependency>
         <!-- db -->
         <dependency>
             <groupId>com.h2database</groupId>
@@ -73,6 +79,13 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.2.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>giit.java.maven.App</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

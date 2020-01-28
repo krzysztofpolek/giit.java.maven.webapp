@@ -28,6 +28,7 @@ public class App {
                 new JettyWebXmlConfiguration()
         });
         webapp.setAttribute("org.eclipse.jetty.server.webapp.ContainerIncludeJarPattern", ".*/classes/.*");
+        webapp.setInitParameter("org.eclipse.jetty.servlet.Default.useFileMappedBuffer", "false");
 
         Server server = new Server(8080);
         server.setHandler(webapp);

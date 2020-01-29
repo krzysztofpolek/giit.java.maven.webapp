@@ -1,4 +1,4 @@
-package giit.java.maven;
+package giit.java.maven.webapp;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.MetadataSources;

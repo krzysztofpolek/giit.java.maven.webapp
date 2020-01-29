@@ -1,4 +1,4 @@
-package giit.java.maven.lang;
+package giit.java.maven.webapp.lang;
 
 import org.hibernate.annotations.GenericGenerator;
 

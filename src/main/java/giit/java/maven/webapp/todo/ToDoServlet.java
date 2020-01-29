@@ -1,4 +1,4 @@
-package giit.java.maven.todo;
+package giit.java.maven.webapp.todo;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;

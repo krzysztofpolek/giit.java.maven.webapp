@@ -1,4 +1,4 @@
-package giit.java.maven.hello;
+package giit.java.maven.webapp.hello;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.Optional;
 
 @WebServlet(name = "Hello", urlPatterns = {"/api"})
 public class HelloServlet extends HttpServlet {

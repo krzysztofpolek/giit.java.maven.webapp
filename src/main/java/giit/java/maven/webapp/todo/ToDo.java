@@ -1,4 +1,4 @@
-package giit.java.maven.todo;
+package giit.java.maven.webapp.todo;
 
 import org.hibernate.annotations.GenericGenerator;
 

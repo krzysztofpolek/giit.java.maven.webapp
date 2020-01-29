@@ -1,6 +1,6 @@
-package giit.java.maven.lang;
+package giit.java.maven.webapp.lang;
 
-import giit.java.maven.HibernateUtil;
+import giit.java.maven.webapp.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 

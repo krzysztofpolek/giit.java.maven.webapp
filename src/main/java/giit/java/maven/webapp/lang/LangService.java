@@ -1,4 +1,4 @@
-package giit.java.maven.lang;
+package giit.java.maven.webapp.lang;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,7 +1,7 @@
-package giit.java.maven.hello;
+package giit.java.maven.webapp.hello;
 
-import giit.java.maven.lang.Lang;
-import giit.java.maven.lang.LangRepository;
+import giit.java.maven.webapp.lang.Lang;
+import giit.java.maven.webapp.lang.LangRepository;
 import org.junit.Test;
 
 import java.util.Optional;

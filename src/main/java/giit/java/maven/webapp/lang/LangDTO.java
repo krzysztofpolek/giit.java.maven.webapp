@@ -1,4 +1,4 @@
-package giit.java.maven.lang;
+package giit.java.maven.webapp.lang;
 
 class LangDTO {
     private Integer id;

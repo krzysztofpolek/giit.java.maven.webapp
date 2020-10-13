@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <slf4j.version>1.7.30</slf4j.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <http.verison>4.0.1</http.verison>
         <jetty.version>9.4.14.v20181114</jetty.version>
         <h2.version>1.4.200</h2.version>

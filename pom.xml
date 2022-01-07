@@ -16,7 +16,7 @@
         <junit.version>4.12</junit.version>
         <http.verison>4.0.1</http.verison>
         <jetty.version>9.4.14.v20181114</jetty.version>
-        <h2.version>1.4.200</h2.version>
+        <h2.version>2.0.206</h2.version>
     </properties>
 
     <dependencies>
